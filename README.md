@@ -1,5 +1,5 @@
 # CloudVandana-ASE-Coding-Assignment
-I have established this repository for the coding assignment associated with the role of Associate Software Engineer (ASE) at CloudVandana. Within this repository, I have incorporated three distinct tasks encompassing Java, JavaScript, and HTML-CSS.
+I have created this repository for the coding task related to the Associate Software Engineer (ASE) position at CloudVandana. Inside this repository, I've included three separate assignments involving Java, JavaScript, and HTML, CSS & JavaScript.
 
 
 ## JAVA
