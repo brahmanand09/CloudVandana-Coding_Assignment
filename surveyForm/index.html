@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Customer Survey Form</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Customer Survey Form</h1>
+        <div class="container">
+            <fieldset>
+            <form id="surveyForm">
+                <label for="firstName">First Name:</label>
+                <input type="text" id="firstName" required><br><br>
+    
+                <label for="lastName">Last Name:</label>
+                <input type="text" id="lastName" required><br><br>
+    
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" required><br><br>
+    
+                <label for="country">Country:</label>
+                <select id="country" required>
+                    <option value="">Select Country</option>
+                    <option value="India">India</option>
+                    <option value="USA">USA</option>
+                    <option value="Canada">Canada</option>
+                    <option value="UK">UK</option>
+                </select><br><br>
+    
+                <label>Gender:</label><br>
+                <input type="checkbox" id="male" name="gender" value="Male"> Male
+                <input type="checkbox" id="female" name="gender" value="Female"> Female
+                <input type="checkbox" id="other" name="gender" value="Other"> Other<br><br>
+    
+                <label for="profession">Profession:</label>
+                <input type="text" id="profession" required><br><br>
+    
+                <label for="email">Email:</label>
+                <input type="email" id="email" required><br><br>
+    
+                <label for="mobile">Mobile Number:</label>
+                <input type="tel" id="mobile" maxlength="10" required><br><br>
+    
+                <button type="button" onclick="submitForm()">Submit</button>
+                <button type="button" onclick="resetForm()">Reset</button>
+            </form>
+        </fieldset>
+        </div>
+    
+        <div id="overlay"></div>
+        <div id="popup">
+            <h2>Survey Form Submission</h2>
+            <div id="popupContent"></div>
+            <button onclick="closePopup()">Close</button>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
